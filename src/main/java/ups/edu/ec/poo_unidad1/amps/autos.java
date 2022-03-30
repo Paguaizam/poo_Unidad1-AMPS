@@ -10,8 +10,8 @@ package ups.edu.ec.poo_unidad1.amps;
  */
 public class autos {
     String marca;
-    int cilindraje;
     String modelo;
+    int cilindraje;
     double peso;
 }
 
