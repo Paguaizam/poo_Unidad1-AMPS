@@ -128,7 +128,7 @@ public class Poo_Unidad1AMPS {
         System.out.println("El nombre del perro es: " +perrito.nombre);
         var tiempo = new perro();
         tiempo.edad=5;
-        System.out.println("La edad del perro es: " +tiempo.edad);
+        System.out.println("La edad del perro en años es: " +tiempo.edad);
         var raz = new perro();
         raz.raza="Golden";
         System.out.println("La raza del perro es: " +raz.raza);
@@ -141,7 +141,7 @@ public class Poo_Unidad1AMPS {
         System.out.println("El nombre del perro es: " +perrito1.nombre);
         var tiempo1 = new perro();
         tiempo1.edad=8;
-        System.out.println("La edad del perro1 es: " +tiempo1.edad);
+        System.out.println("La edad del perro1 en años es: " +tiempo1.edad);
         var raz1 = new perro();
         raz1.raza="Husky";
         System.out.println("La raza1 del perro es: " +raz1.raza);
