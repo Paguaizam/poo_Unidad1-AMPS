@@ -101,6 +101,26 @@ public class Poo_Unidad1AMPS {
         var habitantes = new pais();
         habitantes.poblacion=128000000;
         System.out.println("El numero de habitantes es: " +habitantes.poblacion);
+        var cap = new pais();
+        cap.capital="Ciudad de Mexico";
+        System.out.println("El nombre de la capitales: " +cap.capital);
+        var tam = new pais();
+        tam.tamaño=1973000000;
+        System.out.println("El tamaño de Mexico es: " +tam.tamaño);
+        
+        
+        var estado1 = new pais();
+        estado1.nombre="Colombia";
+        System.out.println("El nombre del pais es: " +estado1.nombre);
+        var habitantes1 = new pais();
+        habitantes1.poblacion=50800000;
+        System.out.println("El numero de habitantes es: " +habitantes.poblacion);
+        var cap1 = new pais();
+        cap1.capital="Bogota";
+        System.out.println("El nombre de la capitales: " +cap1.capital);
+        var tam1 = new pais();
+        tam1.tamaño=19300000;
+        System.out.println("El tamaño de Colombia es: " +tam1.tamaño);
         
         /////////////////////////////////////////
         var perrito = new perro();
@@ -109,5 +129,24 @@ public class Poo_Unidad1AMPS {
         var tiempo = new perro();
         tiempo.edad=5;
         System.out.println("La edad del perro es: " +tiempo.edad);
+        var raz = new perro();
+        raz.raza="Golden";
+        System.out.println("La raza del perro es: " +raz.raza);
+        var kg = new perro();
+        kg.peso=32;
+        System.out.println("El peso del perro en kg es: " +kg.peso);
+        
+         var perrito1 = new perro();
+        perrito1.nombre="Nico";
+        System.out.println("El nombre del perro es: " +perrito1.nombre);
+        var tiempo1 = new perro();
+        tiempo1.edad=8;
+        System.out.println("La edad del perro1 es: " +tiempo1.edad);
+        var raz1 = new perro();
+        raz1.raza="Husky";
+        System.out.println("La raza1 del perro es: " +raz1.raza);
+        var kg1 = new perro();
+        kg1.peso=24;
+        System.out.println("El peso del perro en kg1 es: " +kg1.peso);
     }
 }
