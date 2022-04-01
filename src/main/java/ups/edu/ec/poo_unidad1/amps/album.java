@@ -11,6 +11,6 @@ package ups.edu.ec.poo_unidad1.amps;
 public class album {
     String nombre;
     String autor;
-    int visitas_youtube;
-    float duracion ; 
+    int visitas;
+    long duracion ; 
 }
